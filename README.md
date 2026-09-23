@@ -36,3 +36,13 @@ Filters out closed deals (`Closed Won` and `Closed Lost`) before grouping, then 
 ## What I learned
 
 A few things that don't show up until you actually hit them: `NULL` never equals anything, not even in comparisons, so it has to be tested for explicitly with `IS NULL`. `GROUP BY` only guarantees the aggregated column is correct, any other selected column can come from an arbitrary row in that group unless it's tied to the aggregate through a subquery. And deal names in this data are just labels, not reliable indicators of which company a deal actually belongs to, the foreign key relationship is what matters, not what the row is named.
+
+## Dashboard
+
+The main finding — an open $150K deal with zero logged activity — is visualized in Tableau:
+
+![Deal Value by Stage]
+<img width="1416" height="1758" alt="Sheet 1" src="https://github.com/user-attachments/assets/35dee7e3-287c-4eab-8931-e106f5a05231" />
+
+
+Live version: https://public.tableau.com/app/profile/carlos.cortez7133/viz/DealValueByStage/Sheet1?publish=yes
