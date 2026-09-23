@@ -41,7 +41,6 @@ A few things that don't show up until you actually hit them: `NULL` never equals
 
 The main finding — an open $150K deal with zero logged activity — is visualized in Tableau:
 
-![Deal Value by Stage]
 <img width="1416" height="1758" alt="Sheet 1" src="https://github.com/user-attachments/assets/35dee7e3-287c-4eab-8931-e106f5a05231" />
 
 
